@@ -1,5 +1,5 @@
 import dbConnect from "../../lib/dbConnect";
-import User from "../../models/User";
+import User from "../../models/user";
 import bcrypt from "bcrypt";
 import { signUser } from "../../lib/jwt";
 import verifyInputs from "../../middlewares/verifyInputs";

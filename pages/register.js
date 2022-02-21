@@ -18,7 +18,7 @@ export default function Register() {
           const formData = new FormData(e.target);
 
           const loginRequest = await fetch(
-            "http://localhost:3000/api/register",
+            "http://onespace.vercel.app/api/register",
             {
               method: "POST",
               headers: {

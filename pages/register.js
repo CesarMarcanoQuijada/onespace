@@ -24,11 +24,11 @@ export default function Register() {
                 "Content-Type": "application/json",
               },
               body: JSON.stringify({
-                email: formData.get("email"),
+                email: formData.get("email").toLowerCase(),
                 password: formData.get("password"),
-                name: formData.get("name"),
-                lastname: formData.get("lastname"),
-                username: formData.get("username"),
+                name: formData.get("name").toLowerCase(),
+                lastname: formData.get("lastname").toLowerCase(),
+                username: formData.get("username").toLowerCase(),
                 birthday: formData.get("birthday"),
               }),
             }

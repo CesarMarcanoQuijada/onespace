@@ -18,7 +18,7 @@ export default function Register() {
             <meta name="theme-color" content="#171923" />
           </Head>
           <Text fontSize="xl" fontWeight="bold" color="white">
-            Te has registrado con éxito!
+            Te has registrado con éxito
           </Text>
         </Center>
       </Container>

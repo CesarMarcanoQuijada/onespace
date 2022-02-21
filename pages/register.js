@@ -14,11 +14,10 @@ export default function Register() {
       formProps={{
         onSubmit: async (e) => {
           e.preventDefault();
-          // get the form data
           const formData = new FormData(e.target);
 
           const loginRequest = await fetch(
-            "http://onespace.vercel.app/api/register",
+            "https://onespace.vercel.app/api/register",
             {
               method: "POST",
               headers: {
